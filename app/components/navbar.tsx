@@ -1,4 +1,4 @@
-export default function Navbar(){
+export default function NavbarHome(){
     return (
         <nav>
             <ul className="flex space-x-6">
