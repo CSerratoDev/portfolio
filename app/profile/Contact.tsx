@@ -29,15 +29,15 @@ export default function Contact() {
                 <>
                     <ModalHeader className="flex flex-col gap-1">Contact   </ModalHeader>
                     <ModalBody className="flex-wrap justify-center">
-                        <p>
-                            <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2">
+                            <p>
                                 cserrato.dev@gmail.com
                                 <Link href="https://linktr.ee/serratomx" className="hover:underline text-cyan-500 flex">
                                         Social Media
                                 </Link>
-                            </div>
-                        <br/>
-                        </p>
+                            <br/>
+                            </p>
+                        </div>
                     </ModalBody>
                     <ModalFooter>
                         <Button color="danger" variant="light" onPress={onClose}>
