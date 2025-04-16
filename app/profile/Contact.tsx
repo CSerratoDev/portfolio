@@ -8,15 +8,13 @@ import {
     useDisclosure 
 } from "@heroui/react";
 import Link from "next/link";
-import { IoIosMail } from "react-icons/io";
-import { IoLinkSharp } from "react-icons/io5";
 
 export default function Contact() {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     
     return (
         <>
-        <Button onPress={onOpen} className="bg-[#364072] text-white " href="#" variant="shadow">
+        <Button onPress={onOpen} className="bg-[#364072] text-white" href="#" variant="shadow">
             Contact
         </Button>
         <Modal

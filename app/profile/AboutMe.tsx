@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <section className="h-[500px] flex text-[#252525] p-6">
+        <section id="profile" className="h-[750px] flex text-[#252525] p-6">
             <article>  
             <h2 className="flex flex-wrap font-sans text-xl font-semibold py-3 px-3 typewriter">
                 <code>

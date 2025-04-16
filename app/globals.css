@@ -46,3 +46,11 @@ body {
   white-space: nowrap;
   animation: typewriter 4s steps(40,end), blink 0.75s step-end infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 60px;
+}

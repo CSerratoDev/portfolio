@@ -19,17 +19,17 @@ export default function Header() {
                     </NavbarContent>
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
                     <NavbarItem className="text-[#252525]">
-                        <Link color="foreground" href="/proyects">
+                        <Link color="foreground" href="#projects">
                             Proyects
                         </Link>
                     </NavbarItem>
                 <NavbarItem className="text-[#364072]">
-                    <Link aria-current="page" href="/profile">
+                    <Link aria-current="page" href="#profile">
                         Profile
                     </Link>
                 </NavbarItem>
                     <NavbarItem className="text-[#252525]">
-                        <Link color="foreground" href="/achievements">
+                        <Link color="foreground" href="#achievements">
                             Achievements
                         </Link>
                     </NavbarItem>
