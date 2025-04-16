@@ -1,24 +1,26 @@
-import { Chip } from "@heroui/react";
+import { Chip, Image } from "@heroui/react";
 import CardPeTinder from "./components/_proyects/cardPeTinder";
 import Header from "./components/header";
 import CardDataDolphin from "./components/_proyects/cardDataDolphin";
+import React from "react";
+import AboutMe from "./profile/AboutMe";
 
 export default function Home() {
   return (
     <main>
       <Header/>
-      <section className="flex text-[#252525] p-6">
-        <h2>Welcome My Portfolio!</h2>
-      </section>
-      <aside className="flex justify-center px-6 p-6 items-center">
-          <div className="px-3">
+      <AboutMe/>
+      <section className="h-[500px] text-[#252525] p-6">
+        <h2 className="font-sans text-2xl font-semibold">Proyects</h2>
+        <aside className="flex flex-wrap justify-center px-3 p-3 items-center">
+        <div className="px-3">
             <CardPeTinder/>
             <div className="text-[#252525] flex justify-center px-6 py-3 gap-2">
               <Chip radius="md">Figma</Chip>
               <Chip radius="md">Design</Chip>
               <Chip radius="md">UserFlow</Chip>
             </div>
-          </div>
+        </div>
           <div className="px-3">
             <CardDataDolphin/>
             <div className="text-[#252525] flex justify-center px-6 py-3 gap-2">
@@ -35,7 +37,8 @@ export default function Home() {
               <Chip radius="md">API</Chip>
             </div>
           </div>
-      </aside>
+        </aside>
+      </section>
     </main>
   );
 }
