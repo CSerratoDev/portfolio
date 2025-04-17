@@ -5,7 +5,7 @@ import CardDataDolphin from "../components/_proyects/cardDataDolphin";
 
 export default function Projects() {
     return (
-        <section id="projects" className="h-[750px] text-[#252525] p-6">
+        <section id="projects" className="h-auto text-[#252525] p-6">
             <h2 className="font-sans text-2xl font-semibold">Proyects</h2>
             <aside className="flex flex-wrap justify-center px-3 p-3 items-center">
             <div className="px-3">
