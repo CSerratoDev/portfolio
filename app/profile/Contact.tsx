@@ -25,9 +25,9 @@ export default function Contact() {
         >
             <ModalContent>{(onClose) => (
                 <>
-                    <ModalHeader className="flex flex-col gap-1">Contact   </ModalHeader>
+                    <ModalHeader className="flex flex-col gap-1 text-[#252525]">Contact   </ModalHeader>
                     <ModalBody className="flex-wrap justify-center">
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 text-[#252525]">
                             <p>
                                 cserrato.dev@gmail.com
                                 <Link href="https://linktr.ee/serratomx" className="hover:underline text-cyan-500 flex">

@@ -42,18 +42,18 @@ export default function Header() {
                         </div>
                     </NavbarItem>
                 </NavbarContent>
-                    <NavbarMenu>
-                        {menuItems.map((item, index) => (
-                        <NavbarMenuItem key={`${item}-${index}`}>
-                            <Link className="w-full" color={
-                                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-                            }
-                                href="#">
-                                {item}
-                            </Link>
-                        </NavbarMenuItem>
-                    ))}
-                    </NavbarMenu>
+                <NavbarMenu className="text-[#252525] py-6 px-6">
+                    {menuItems.map((item, index) => (
+                    <NavbarMenuItem key={`${item}-${index}`}>
+                        <Link className="w-full" color={
+                            index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+                        }
+                        href="#">
+                            {item}
+                        </Link>
+                    </NavbarMenuItem>
+                ))}
+                </NavbarMenu>
             </Navbar>
         </div>
     );
