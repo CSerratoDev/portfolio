@@ -54,3 +54,58 @@ html {
 section {
   scroll-margin-top: 60px;
 }
+
+.tag-list {
+  width: 30rem;
+  font-family: sans-serif;
+  position: relative;
+  padding: 0.9rem;
+  overflow: hidden;
+}
+
+.inner {
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
+  animation: loop 10s linear infinite;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  background-color: #364072;
+  padding: 0.3rem 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 
+    0 0.1rem 0.2rem #00000033,
+    0 0.1rem 0.5rem #0000004d,
+    0 0.2rem 0.9rem #00000066;
+}
+
+.tag span {
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+.fade {
+  position: absolute;
+  background: 
+    linear-gradient(90deg,
+    #1e293b,
+    transparent 30%,
+    transparent 70%,
+    #1e293b);
+  pointer-events: none;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
