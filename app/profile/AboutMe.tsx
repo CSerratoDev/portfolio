@@ -1,10 +1,10 @@
-import { Button, Link } from "@heroui/react";
+import { Button, Image, Link } from "@heroui/react";
 import { BsInstagram } from "react-icons/bs";
 import { SiGoogledocs } from "react-icons/si";
 
 export default function AboutMe() {
     return (
-        <section id="profile" className="h-[750px] w-[580px] flex text-[#252525] p-6">
+        <section id="profile" className="h-auto text-[#252525] p-6 flex-wrap">
             <article>  
                 <div className="h-auto w-auto flex-wrap justify-start">
                         <h1 className="text-6xl font-semibold">Hello, I am Alexis!</h1>
