@@ -1,8 +1,7 @@
-import { Button, Image, Link } from "@heroui/react";
+import { Button, Link } from "@heroui/react";
 import { BsInstagram } from "react-icons/bs";
 import { SiGoogledocs } from "react-icons/si";
 import Avatar from "../common/avatar";
-
 export default function AboutMe() {
     return (
         <section id="profile" className="text-[#252525] py-6 px-6">
