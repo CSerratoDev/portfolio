@@ -14,7 +14,7 @@ export default function Contact() {
     
     return (
         <>
-        <Button onPress={onOpen} className="bg-[#364072] text-white" href="#" variant="shadow">
+        <Button onPress={onOpen} className="bg-white text-black" href="#" variant="shadow">
             Contact
         </Button>
         <Modal
@@ -22,12 +22,13 @@ export default function Contact() {
             isKeyboardDismissDisabled={true} 
             isOpen={isOpen} 
             onOpenChange={onOpenChange}
+            className="bg-[#252525]"
         >
             <ModalContent>{(onClose) => (
                 <>
-                    <ModalHeader className="flex flex-col gap-1 text-[#252525]">Contact   </ModalHeader>
+                    <ModalHeader className="flex flex-col gap-1 text-white">Contact   </ModalHeader>
                     <ModalBody className="flex-wrap justify-center">
-                        <div className="flex flex-col gap-2 text-[#252525]">
+                        <div className="flex flex-col gap-2 text-white">
                             <p>
                                 cserrato.dev@gmail.com
                                 <Link href="https://linktr.ee/serratomx" className="hover:underline text-cyan-500 flex">
@@ -41,7 +42,7 @@ export default function Contact() {
                         <Button color="danger" variant="light" onPress={onClose}>
                             Close
                         </Button>
-                        <Button className="bg-[#364072] text-white" variant="shadow">
+                        <Button className="bg-white text-black" variant="shadow">
                             Send mail
                         </Button>
                     </ModalFooter>

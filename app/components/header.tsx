@@ -10,25 +10,25 @@ export default function Header() {
     const menuItems = ["Profile", "Proyects", "Achievements"];
     return (
         <div className="sticky top-0 z-50 shadow-md transition-all duration-500">
-            <Navbar className="bg-zinc-100 text-[#252525] " onMenuOpenChange={setIsOpen}>
+            <Navbar className="bg-black text-white " onMenuOpenChange={setIsOpen}>
                     <NavbarContent className="container mx-auto flex justify-between items-center">
                         <NavbarMenuToggle aria-label={isOpen ? "Close menu" : "Open menu"} className="sm:hidden"/>
                             <NavbarBrand>
-                                <p className="text-2xl text-[#364072] font-bold">cserrato.dev</p>
+                                <p className="text-2xl text-white font-bold">cserrato.dev</p>
                             </NavbarBrand>
                     </NavbarContent>
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
-                    <NavbarItem className="text-[#252525]">
+                    <NavbarItem className="text-white">
                         <Link color="foreground" href="#projects">
                             Proyects
                         </Link>
                     </NavbarItem>
-                <NavbarItem className="text-[#364072]">
+                <NavbarItem className="text-white">
                     <Link aria-current="page" href="#profile">
                         Profile
                     </Link>
                 </NavbarItem>
-                    <NavbarItem className="text-[#252525]">
+                    <NavbarItem className="text-white">
                         <Link color="foreground" href="#achievements">
                             Achievements
                         </Link>
@@ -42,7 +42,7 @@ export default function Header() {
                         </div>
                     </NavbarItem>
                 </NavbarContent>
-                <NavbarMenu className="text-[#252525] py-6 px-6">
+                <NavbarMenu className="text-white py-6 px-6">
                     {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
                         <Link className="w-full" color={
