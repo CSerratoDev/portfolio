@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <main>
         <div><AboutMe/></div>
-        <div className="justify-center flex"><Technology/></div>
         <div><Projects/></div>
         <div><Achievements/></div>
     </main>

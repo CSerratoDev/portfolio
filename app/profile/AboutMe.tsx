@@ -2,6 +2,7 @@ import { Button, Link } from "@heroui/react";
 import { BsInstagram } from "react-icons/bs";
 import { SiGoogledocs } from "react-icons/si";
 import Avatar from "../common/avatar";
+import Technology from "../common/technology";
 export default function AboutMe() {
     return (
         <section id="profile" className="text-[#252525] py-6 px-6">
@@ -33,6 +34,7 @@ export default function AboutMe() {
                             <SiGoogledocs/>Resume
                         </Button>
                     </div>
+                    <div><Technology/></div>
                 </div>
                 <div className="w-full md:w-1/3 flex justify-center items-center mt-6 md:mt-0">
                     <div className="max-w-ls w-full">

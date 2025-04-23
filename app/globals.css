@@ -56,7 +56,7 @@ section {
 }
 
 .tag-list {
-  width: 30rem;
+  width: auto;
   font-family: sans-serif;
   position: relative;
   padding: 0.9rem;
@@ -76,13 +76,12 @@ section {
   gap: 0 0.2rem;
   color: #ffffff;
   font-size: 0.9rem;
-  background-color: #364072;
+  background-color: #252525;
   padding: 0.3rem 1rem;
   border-radius: 0.6rem;
   box-shadow: 
     0 0.1rem 0.2rem #00000033,
-    0 0.1rem 0.5rem #0000004d,
-    0 0.2rem 0.9rem #00000066;
+    0 0.1rem 0.5rem #0000004d;
 }
 
 .tag span {
@@ -101,11 +100,11 @@ section {
   pointer-events: none;
 }
 
-@keyframes loop {
+/**@keyframes loop {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
   }
-}
+}*/
