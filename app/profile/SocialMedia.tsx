@@ -1,6 +1,6 @@
 import { Button, Link } from "@heroui/react";
 import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
-import ThemeToggle from "../components/Theme/theme";
+
 export default function SocialMedia() {
     return (
         <> 
